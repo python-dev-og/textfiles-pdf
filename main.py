@@ -3,7 +3,7 @@ import glob
 from pathlib import Path
 
 # Create a list of text filepaths
-filepaths = glob.glob("/files/*.txt")
+filepaths = glob.glob("files/*.txt")
 # Create one pdf file
 pdf = FPDF(orientation="P", unit="mm", format="A4")
 
